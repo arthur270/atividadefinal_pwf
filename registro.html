@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre-se no nosso site</title>
+    <link href="padrao.css" rel="stylesheet">
+    <script src="registro.js"></script>
+</head>
+<body onload="inicializarComponentes()">
+    <header>
+        <h1>Registro</h1>
+    </header>
+    <!-- Pontilhado no CSS -->
+    <div class="divisoria"></div>
+    <main>
+        <form>
+            <label><strong>Nome completo:</strong></label>
+            <input id="nome"><br><br>
+            <label for="sexo"><strong>Sexo</strong></label><br>
+            <input type="radio" id="masculino" name="gender" value="Masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="feminino" name="gender" value="Feminino">
+            <label for="feminino">Feminino</label><br><br>
+            <label><strong>Quais esportes você pratica?</strong></label><br>
+            <input type="checkbox" id="esporte1" name="esporte1" value="futebol">
+            <label for="esporte1">Futebol</label><br>
+            <input type="checkbox" id="esporte2" name="esporte2" value="basquete">
+            <label for="esporte2">Basquete</label><br>
+            <input type="checkbox" id="esporte3" name="esporte3" value="volei">
+            <label for="esporte3">Vôlei</label><br>
+            <input type="checkbox" id="esporte4" name="esporte4" value="outro">
+            <label for="esporte4">Outro</label><br>
+            <input type="checkbox" id="nenhum" name="nenhum" value="esportenenhum">
+            <label for="nenhum">Nenhum esporte</label><br><br>
+            <label><strong>Crie um login:</strong></label>
+            <input id="login"><br><br>
+            <label><strong>Crie uma senha:</strong></label>
+            <input id="senha"><br><br>
+            <button type="submit" id="registrar">Registrar</button>
+            <button type="Reset" id="cancelar">Cancelar</button>
+        </form>
+    </main>
+    <!-- Pontilhado no CSS -->
+    <div class="divisoria"></div><br>
+    <a href="index.html" class="botao3 botao3">Página inicial</a>
+    <a href="futebol.html" class="botao3 botao3">Futebol</a>
+    <a href="basquete.html" class="botao3 botao3">Basquete</a>
+    <a href="volei.html" class="botao3 botao3">Vôlei</a>
+    <a href="questionario.html" class="botao3 botao3">Questionário</a>
+    <a href="minigame.html" class="botao3 botao3">Jogo</a>
+    <footer><h1>Obrigado pela visita!</h1></footer>
+</body>
+</html>

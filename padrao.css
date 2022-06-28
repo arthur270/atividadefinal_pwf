@@ -1,0 +1,123 @@
+.divisoria {border-bottom: dotted purple 1px;}
+
+.divisoria2 {border-bottom: dotted black 1px;}
+
+h1 {color: white;
+}
+
+header {
+    background-color: purple;
+    padding: 1%;
+    text-align: center;
+}
+
+footer {
+    background-color: purple;
+    padding: 1%;
+    text-align: center;
+}
+
+main {
+    background-color: yellow;
+    padding: 1%;
+}
+
+body {
+    background-color:aquamarine;
+}
+
+h2 {
+    color: black;
+    border-bottom: solid black 1px;
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+img {
+    width: 50%;
+    height: 30%;
+}
+
+.imagem {
+    text-align: center;
+}
+
+/* Botão para Ver Mais */
+.botao {
+    color: purple;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .botao1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid yellowgreen;
+  }
+  
+  .botao1:hover {
+    background-color: yellowgreen;
+    color: black;
+  }
+
+/* Botão para Entrar */
+.botao2 {
+    color: purple;
+    padding: 16px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  .botao2 {
+    background-color: white;
+    color: black;
+    border: 2px solid yellowgreen;
+  }
+
+  .botao2:hover {
+    background-color: yellowgreen;
+    color: black;
+  }
+
+  .botao3 {
+    color: purple;
+    padding: 8px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+/* Botão para Referencias */
+.botao3 {
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid yellowgreen;
+  }
+
+  .botao3:hover {
+    background-color: yellowgreen;
+    color: black;
+  }
+
+/* Fonte do texto */
+.fontetexto {
+    font-family: Arial, Helvetica, sans-serif; 
+  }
